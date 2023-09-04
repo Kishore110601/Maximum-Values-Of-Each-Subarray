@@ -1,0 +1,9 @@
+b=list(map(int,input().split()))
+a=int(input())
+c=[]
+for i in range(0,len(b)-a+1):
+    print(b[i:i+a])
+    temp=max(b[i:i+a])
+    print(temp)
+    c.append(temp)
+print(c)
